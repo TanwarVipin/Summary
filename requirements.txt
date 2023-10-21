@@ -2,7 +2,6 @@ streamlit
 pandas 
 numpy 
 heapq_max
-spacy
+spacy==3.5.0
 nltk
-en_core_web_sm
 -e .
