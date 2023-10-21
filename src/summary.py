@@ -12,6 +12,9 @@ from string import punctuation
 
 p=punctuation
 
+# Download the spaCy model
+spacy.cli.download('en_core_web_sm')
+
 nlp=spacy.load('en_core_web_sm')
 
 stopwords=list(STOP_WORDS)
