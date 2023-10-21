@@ -4,4 +4,5 @@ numpy
 heapq_max
 spacy
 nltk
+en_core_web_sm
 -e .
