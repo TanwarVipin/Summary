@@ -7,6 +7,13 @@ from src.logger import logging
 from src.summary import doc
 
 try:
+    import subprocess
+    
+    @st.cache_resource
+    def download_en_core_web_sm():
+        subprocess.run(["python", "-m", "spacy", "download", "en_core_web_sm"])
+
+try:
 
     title_style = '''
     <style>
